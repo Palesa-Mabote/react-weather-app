@@ -1,9 +1,30 @@
 .App {
   max-width: 600px;
   margin: 30px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
 }
 
-.App footer {
-  font-size: 11px;
-  margin: 10px 0;
+.app-title {
+  font-size: 32px;
+  text-align: center;
+  color: #333;
+}
+
+.Weather {
+  margin-top: 20px;
+}
+
+.loading {
+  text-align: center;
+  font-size: 18px;
+  color: #555;
+}
+
+.footer {
+  font-size: 8px;
+  text-align: center;
+  margin-top: 20px;
 }

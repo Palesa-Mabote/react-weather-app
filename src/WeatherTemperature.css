@@ -1,0 +1,31 @@
+/* WeatherTemperature.css */
+
+.WeatherTemperature {
+  display: flex;
+  align-items: center;
+  font-size: 48px;
+  color: #ff5722; /* Accent color */
+  font-weight: 400;
+}
+
+.temperature {
+  margin-right: 10px;
+}
+
+.unit {
+  font-size: 24px;
+  color: #777;
+}
+
+.unit-button {
+  background: none;
+  border: none;
+  color: #1e88e5; /* Google Blue */
+  cursor: pointer;
+  font-size: 16px;
+  padding: 0;
+}
+
+.unit-button:hover {
+  text-decoration: underline;
+}
